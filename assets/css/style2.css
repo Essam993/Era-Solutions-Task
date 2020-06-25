@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,167,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Task 1 */
+
+
+ a {
+	 font-size: 2em;
+	 font-weight: 800;
+	 color: black;
+	 background: linear-gradient(to right, red, red 50%, black 50%);
+	 background-clip: text;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 background-size: 200% 100%;
+	 background-position: 100%;
+	 transition: background-position 275ms ease;
+	 text-decoration: none;
+}
+ a:hover {
+	 background-position: 0 100%;
+}
+ 

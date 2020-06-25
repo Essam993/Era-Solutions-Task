@@ -1,0 +1,200 @@
+
+
+/* Task 2 */
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
+}
+
+.upper {
+  width: 100vw;
+  height: 150vh;
+  right: -50vw;
+  top: -100px;
+  padding: 70vh;
+  transform: rotate(10deg);
+  background-color: white;
+  position: absolute;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.upper:hover {
+  right: -50px;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.lower {
+  width: 100vw;
+  height: 150vh;
+  left: -50vw;
+  top: -200px;
+  padding-top: 70vh;
+  transform: rotate(10deg);
+  background-color: red;
+  position: absolute;
+  transition: all;
+  transition-duration: 1s;
+
+}
+
+.lower:hover {
+  left: -50px;
+  transition: all;
+  transition-duration: 1s;
+}
+
+
+
+/* Task 2 */
+
+
+
+#accordian {
+  height: 100%;
+  overflow: hidden;
+  width: 120%;
+  margin-left: -5%;
+}
+
+#accordian>div {
+  height: 100%;
+  margin-top: -10%;
+  padding: 10% 5%;
+  width: 34.75%;
+  float: left;
+  color: #ccc;
+  transform: rotate(5deg);
+}
+
+#accordian>div h1 {
+  text-align: center;
+  cursor: pointer;
+  transform: rotate(-5deg);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 60vh;
+  margin-right: -100px;
+}
+
+.staticImage {
+  transform: rotate(-5deg);
+  letter-spacing: 1px;
+  margin-top: 20%;
+}
+
+.staticLeft {
+  margin-top: 12%;
+}
+
+
+
+#accordian>div h1.checked {
+  margin-top: 5% !important;
+  font-size: 25px;
+}
+
+#accordian>div h1.small {
+  font-size: 15px;
+  margin-right: 0px;
+
+}
+
+#accordian>div>div {
+  transform: rotate(-5deg);
+  display: none;
+  font-size: 18px;
+}
+
+
+
+#accordian .left {
+  background: #fdc9c9;
+  color: rgb(0, 0, 0);
+
+
+}
+
+#accordian .right {
+  background: #fff;
+  color: black;
+  direction: rtl;
+}
+
+p {
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 20%;
+
+}
+
+.imgLeft {
+  width: 80%;
+}
+
+.imgRight {
+  width: 130%;
+  margin-right: -50px;
+}
+
+
+
+.row2 {
+  padding-top: 80px;
+  margin-right: 100px;
+  width: 100%;
+}
+
+.rightBrand {
+  transform: rotate(0deg);
+  text-align: center;
+  font-size: 3rem;
+  color: indianred;
+}
+
+.leftBrand {
+  transform: rotate(0deg);
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(226, 87, 134);
+}
+
+.leftHeader {
+  margin-left: 100px;
+  margin-top: 60vh;
+  font-size: 1.5rem;
+  color: rgb(226, 87, 134);
+  text-shadow: 2px 2px white;
+}
+
+.rightHeader {
+  margin-left: 10px;
+  margin-top: 60vh;
+  font-size: 1.5rem;
+  color: indianred;
+}
